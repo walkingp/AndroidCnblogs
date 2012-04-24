@@ -1,4 +1,4 @@
 AndroidCnblogs
 ==============
 
-cnblogs android client
+cnblogs android client.
