@@ -1,0 +1,29 @@
+1、博客文章最新10条：http://wcf.open.cnblogs.com/blog/sitehome/recent/10 (不使用)
+
+首页文章分页接口：http://wcf.open.cnblogs.com/blog/sitehome/paged/2/10（第2页，每页10条）
+
+2、博客文章内容：http://wcf.open.cnblogs.com/blog/post/body/2251556
+
+博客评论内容：http://wcf.open.cnblogs.com/blog/post/2291554/comments/1/10
+
+3、新闻最新10条：http://wcf.open.cnblogs.com/news/recent/10
+
+新闻分页接口：http://wcf.open.cnblogs.com/news/recent/paged/1/10
+
+4、新闻内容：http://wcf.open.cnblogs.com/news/item/121853
+
+(实现方法：http://www.cnblogs.com/dudu/archive/2011/10/27/wcf_web_api.html)
+
+5、新闻评论：http://wcf.open.cnblogs.com/news/item/123343/comments/1/10
+
+6、个人博客：http://wcf.open.cnblogs.com/blog/u/dudu/posts/1/10
+
+7、搜索博主：http://wcf.open.cnblogs.com/blog/bloggers/search?t=%E8%80%90
+
+1、推荐博客排名: http://wcf.open.cnblogs.com/blog/bloggers/recommend/1/10
+2、48小时阅读排行：http://wcf.open.cnblogs.com/blog/48HoursTopViewPosts/20
+3、10天内推荐排行：http://wcf.open.cnblogs.com/blog/TenDaysTopDiggPosts/20
+4、推荐新闻：http://wcf.open.cnblogs.com/news/recommend/paged/1/10
+
+http://wcf.open.cnblogs.com/blog/help
+http://wcf.open.cnblogs.com/news/help
