@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@color/bg_color"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<RelativeLayout android:background="@drawable/head" 
+		android:id="@+id/rl_blog_detail"
+		android:layout_width="fill_parent" 
+		android:layout_height="@dimen/top_bar_height" >
+		<Button android:id="@+id/blog_button_back"
+			style="@style/btn_back_style"
+			android:layout_alignParentLeft="true"
+			android:text="@string/btn_text_back"
+			android:layout_centerVertical="true"
+			android:layout_marginLeft="@dimen/btn_back_margin_left"/>			
+		<!-- 刷新按钮 -->
+		<FrameLayout android:id="@+id/frameLayout" style="@style/toolbar_fl_style">
+			<ProgressBar
+				mce_style="?android:attr/progressBarStyleLarge"
+				style="@style/toolbar_progressbar_style"
+				android:id="@+id/rss_progressBar"/>
+			<ImageButton android:id="@+id/rss_refresh_btn"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:background="@drawable/drawable_btn_refresh"/>
+		</FrameLayout>		
+		<TextView android:id="@+id/txtAppTitle"
+		android:text="@string/main_home"
+		android:layout_centerInParent="true"
+		android:layout_toLeftOf="@id/frameLayout"
+		android:layout_toRightOf="@id/blog_button_back"
+		android:maxLines="1"
+		android:layout_marginLeft="2dip" android:layout_marginRight="2dip"
+		style="@style/txt_app_title_style"></TextView>
+	</RelativeLayout>	
+	<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+    	<WebView android:id="@+id/rss_body_webview_content" 
+				android:layout_height="fill_parent" android:layout_width="fill_parent"
+				/>
+		<ProgressBar
+		android:id="@+id/blogBody_progressBar"
+		style="@style/body_progressbar_style" mce_style="?android:attr/progressBarStyleLarge" />
+	</FrameLayout>
+</LinearLayout>

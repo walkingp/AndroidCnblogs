@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@color/bg_color"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<RelativeLayout android:background="@drawable/head" 
+		android:id="@+id/rl_recommend"
+		android:layout_width="fill_parent" 
+		android:layout_height="@dimen/top_bar_height" >
+		<Button android:id="@+id/author_blog_button_back"
+			style="@style/btn_back_style"
+			android:layout_alignParentLeft="true"
+			android:text="@string/btn_text_back"
+			android:layout_centerVertical="true"
+			android:layout_marginLeft="@dimen/btn_back_margin_left"/>
+		<TextView android:id="@+id/txtAuthor"
+		android:text="@string/search_user"
+		android:layout_centerInParent="true"
+		style="@style/txt_app_title_style"></TextView>
+		<FrameLayout style="@style/toolbar_fl_style">
+			<ProgressBar
+				mce_style="?android:attr/progressBarStyleLarge"
+				style="@style/toolbar_progressbar_style"
+				android:id="@+id/author_blog_progressBar"/>
+			<ImageButton android:id="@+id/author_blog_refresh_btn"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:background="@drawable/drawable_btn_refresh"/>
+		</FrameLayout>	
+	</RelativeLayout>
+	<!--显示博主基本信息及头像-->
+	<LinearLayout android:orientation="horizontal"
+		android:gravity="top|left"
+		android:layout_marginTop="10dip"
+		android:layout_marginLeft="10dip"
+		android:layout_marginRight="10dip"
+		android:layout_marginBottom="10dip"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<ImageView android:id="@+id/author_image_icon"
+			android:src="@drawable/sample_face"
+			android:layout_marginTop="5dip"
+				android:layout_marginBottom="8dip"
+				android:layout_height="38dip"
+				android:layout_width="38dip" android:scaleType="fitXY" />
+		<RelativeLayout android:layout_width="fill_parent"
+	android:layout_height="wrap_content">			
+		<!--订阅按钮-->
+		<Button android:id="@+id/btn_rss"
+		style="@style/btn_rss_style"></Button>
+		<LinearLayout android:orientation="vertical"
+			android:gravity="top|left"
+			android:layout_marginLeft="10dip"
+			android:layout_toLeftOf="@id/btn_rss"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<!--博客名-->
+			<TextView android:textSize="18sp"
+					   android:id="@+id/author_name"
+					   android:layout_width="wrap_content"
+						android:text="walkingp"
+						android:textColor="@color/black"
+					   android:layout_height="wrap_content"
+					   ></TextView>
+			<!--博客地址-->
+			<TextView android:textSize="12sp"
+					   android:id="@+id/author_url"
+					   android:layout_width="wrap_content"
+					   android:layout_height="wrap_content"
+						android:maxLines="2"
+						android:text="博客地址"
+						style="@style/link_text_style"
+					   ></TextView>
+			<!--博客数-->	
+			<TextView android:textSize="12sp"
+					   android:id="@+id/author_blog_count"
+					   android:layout_width="wrap_content"
+					   android:layout_height="wrap_content"
+					   android:text="博客数"
+					   ></TextView>
+			</LinearLayout>
+		</RelativeLayout>
+	</LinearLayout>
+	<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="1dip"
+    android:background="@drawable/line">
+	</LinearLayout>
+	<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+   <com.cnblogs.android.controls.PullToRefreshListView 
+     android:id="@+id/author_blog_list"
+     style="@style/listview_style">
+	 </com.cnblogs.android.controls.PullToRefreshListView>
+	 <ProgressBar
+		android:id="@+id/author_blogList_progressBar"
+		style="@style/body_progressbar_style" mce_style="?android:attr/progressBarStyleLarge" />
+	</FrameLayout>
+</LinearLayout>

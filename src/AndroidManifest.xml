@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.cnblogs.android"
+      android:versionCode="3"
+      android:versionName="1.1.1">
+    <uses-sdk android:minSdkVersion="4" />
+     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+     <uses-permission android:name="android.permission.VIBRATE" />
+	 <uses-permission android:name="android.permission.INTERNET" />
+	 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission  android:name="android.permission.READ_PHONE_STATE"/>
+	
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="true" android:theme="@android:style/Theme.NoTitleBar">
+        <activity android:windowAnimationStyle="@android:style/Animation.Translucent" android:name=".SplashActivity" android:configChanges="keyboardHidden"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<!--关注微博信息-->
+       <activity android:windowAnimationStyle="@android:style/Animation.Translucent" android:name=".AboutActivity" android:configChanges="keyboardHidden" android:launchMode="singleInstance">
+		   <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="myapp" android:host="AboutActivity" /> 
+            </intent-filter>
+	   </activity>
+       <activity android:theme="@style/ContentOverlay" android:name=".BlogActivity" android:configChanges="orientation|keyboardHidden"></activity>
+	   <activity android:theme="@style/ContentOverlay" android:name=".RssListActivity" android:configChanges="orientation|keyboardHidden"></activity>
+	   <activity android:theme="@style/ContentOverlay" android:name=".RssCateActivity" android:configChanges="orientation|keyboardHidden"></activity>
+	   <activity android:theme="@style/ContentOverlay" android:name=".MyRssActivity" android:configChanges="orientation|keyboardHidden"></activity>
+	   <activity android:theme="@style/ContentOverlay" android:name=".RssItemsActivity" android:configChanges="orientation|keyboardHidden"></activity>
+	   <activity android:windowAnimationStyle="@android:style/Animation.Translucent" android:name=".RssDetailActivity" android:configChanges="orientation|keyboardHidden"></activity>
+	   <activity android:theme="@style/ContentOverlay" android:name=".AuthorBlogActivity" android:configChanges="orientation|keyboardHidden"></activity>
+       <activity android:theme="@style/ContentOverlay" android:name=".NewsActivity" android:configChanges="orientation|keyboardHidden"></activity>
+       <activity android:theme="@style/ContentOverlay" android:name=".SettingActivity" android:configChanges="orientation|keyboardHidden"></activity>
+       <activity android:windowAnimationStyle="@android:style/Animation.Translucent" android:name=".BlogDetailActivity" android:configChanges="orientation|keyboardHidden"></activity>
+       <activity android:windowAnimationStyle="@android:style/Animation.Translucent" android:name=".NewsDetailActivity" android:configChanges="orientation|keyboardHidden"></activity>
+       <activity android:theme="@style/ContentOverlay" android:name=".CommentActivity" android:configChanges="orientation|keyboardHidden"></activity>
+       <activity android:theme="@style/ContentOverlay" android:name=".MoreActivity" android:configChanges="orientation|keyboardHidden"></activity>
+	   <activity android:theme="@style/ContentOverlay" android:name=".MainActivity" android:windowSoftInputMode="stateHidden|adjustPan"
+		   android:launchMode="singleTask" android:alwaysRetainTaskState="true" android:clearTaskOnLaunch="true"
+		    android:configChanges="orientation|keyboardHidden"></activity>
+       <activity android:theme="@style/ContentOverlay" android:name=".SearchActivity" android:configChanges="orientation|keyboardHidden"></activity>
+	   <activity android:theme="@style/ContentOverlay" android:name=".WebActivity" android:configChanges="orientation|keyboardHidden"></activity>
+	   <activity android:theme="@style/ContentOverlay" android:name=".RssCateActivity" android:configChanges="orientation|keyboardHidden"></activity>
+	   <activity android:theme="@style/ContentOverlay" android:name=".OrderActivity" android:configChanges="orientation|keyboardHidden"></activity>
+	   <activity android:theme="@style/ContentOverlay" android:name=".BlogTopViewDiggActivity" android:configChanges="orientation|keyboardHidden"></activity>
+	   <activity android:theme="@style/ContentOverlay" android:name=".AuthorOrderActivity" android:configChanges="orientation|keyboardHidden"></activity>
+	   <activity android:theme="@style/ContentOverlay" android:name=".NewsRecommendActivity" android:configChanges="orientation|keyboardHidden"></activity>
+	   <activity android:theme="@style/ContentOverlay" android:name=".MyFavActivity" android:configChanges="orientation|keyboardHidden"></activity>
+	   <service android:enabled="true" android:name="com.cnblogs.android.services.UpdateService" />
+	   <service android:enabled="true" android:name="com.cnblogs.android.services.DownloadServices" />
+	   <!--友盟-->
+	   <meta-data android:value="4ed2451352701528ee000034" android:name="UMENG_APPKEY"></meta-data>
+	   <meta-data android:value="android_market" android:name="UMENG_CHANNEL"/>
+	   <!-- add feedback Activity -->   
+  	   <activity android:name="com.feedback.ui.SendFeedback" android:windowSoftInputMode="adjustResize" />
+	   <activity android:name="com.feedback.ui.FeedbackConversations" />
+	   <activity android:name="com.feedback.ui.FeedbackConversation" android:configChanges="keyboard" />
+	   <service android:exported="true" android:name="com.exchange.Public.DownloadingService"
+	    android:process=":DownloadingService"></service>
+	   <!--多盟-->
+	   <meta-data android:value="56OJyBYYuML8sTo/lf" android:name="DOMOB_PID" />
+	   <activity android:name="cn.domob.android.ads.DomobActivity" android:theme="@android:style/Theme.Translucent"></activity> 
+    </application>
+</manifest>

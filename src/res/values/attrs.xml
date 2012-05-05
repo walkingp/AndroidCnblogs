@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<resources> 
+  <declare-styleable name="cn.domob.android.ads.DomobAdView">  
+    <attr name="backgroundColor" format="color" /> 
+      <attr name="primaryTextColor" format="color" /> 
+      <attr name="keywords" format="string" /> 
+      <attr name="spots" format="string" /> 
+      <attr name="refreshInterval" format="integer" /> 
+    </declare-styleable> 
+</resources> 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="lib" path="E:/项目/个人项目/博客园Android客户端/svn/trunk/lib/org.apache.commons.lang_2.3.0.v201005080501.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

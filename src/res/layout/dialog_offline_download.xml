@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="10dp"
+              >
+	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="@string/dialog_select_content_label"
+		android:textSize="@dimen/font_size_16"
+		></TextView>
+	<LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+		android:layout_height="wrap_content">	
+	<CheckBox android:id="@+id/chkBlog"
+		android:layout_width="wrap_content"
+		android:text="@string/dialog_select_blog"
+		android:checked="true"
+		android:layout_height="wrap_content"></CheckBox>
+	<CheckBox android:id="@+id/chkNews"
+		android:layout_width="wrap_content"
+		android:text="@string/dialog_select_news"
+		android:checked="true"
+		android:layout_height="wrap_content"></CheckBox>
+	</LinearLayout>
+	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="@string/dialog_select_nums_label"
+		android:textSize="@dimen/font_size_16"
+		></TextView>
+	<SeekBar 
+	android:id="@+id/seekBar"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:max="100"
+	android:progress="20" />
+	<TextView android:text="@string/dialog_select_nums_tips"
+		android:id="@+id/tvSeekBar"
+		 android:layout_height="wrap_content"
+		 android:textSize="@dimen/font_size_16"
+		 android:layout_width="fill_parent"/>
+</LinearLayout>

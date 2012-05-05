@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="@color/bg_color"
+    android:id="@+id/rootId" >
+		<RelativeLayout android:background="@drawable/head" 
+		android:id="@+id/rl_recommend"
+		android:layout_width="fill_parent" 
+		android:layout_height="@dimen/top_bar_height" >
+		<Button android:id="@+id/recommend_button_back"
+		style="@style/btn_back_style"
+		android:layout_alignParentLeft="true"
+		android:text="@string/btn_text_back"
+		android:layout_centerVertical="true"
+		android:layout_marginLeft="@dimen/btn_back_margin_left"/>
+		<!--推荐应用-->
+		<TextView android:id="@+id/txtAppTitle"
+		android:text="@string/title_more"
+		android:layout_centerInParent="true"
+		style="@style/txt_app_title_style"></TextView>		
+	</RelativeLayout>
+	<RelativeLayout android:layout_width="-1dp"
+    android:layout_height="-2dp">
+    <RelativeLayout android:layout_width="-1dp"
+        android:layout_height="-2dp" android:id="@+id/tab1"
+        android:layout_marginBottom="5dp" android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+        <ListView android:id="@+id/list1"
+     style="@style/listview_style">
+        </ListView>
+    </RelativeLayout>
+</RelativeLayout>
+</LinearLayout>

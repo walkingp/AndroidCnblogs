@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menu_blog_view" android:title="@string/menu_common_view_content" />
+	<item android:id="@+id/menu_blog_comment" android:title="@string/menu_common_view_comment" />
+	<item android:id="@+id/menu_blog_author" android:title="@string/menu_blog_view_author" />
+	<item android:id="@+id/menu_blog_browser" android:title="@string/menu_common_open_browser" />
+	<item android:id="@+id/menu_blog_share" android:title="@string/menu_common_share_to" />
+</menu>

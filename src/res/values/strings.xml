@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_author">walkingp</string>
+	<string name="app_author_cnblogs_title">walkingp</string>
+	<string name="app_homepage">http://android.walkingp.com/cnblogs/</string>
+	<string name="app_alias">android_cnblogs</string>
+	
+	<string name="app_apk_location_path">/sdcard/cnblogs/apk/</string>
+	<string name="app_images_location_path">/sdcard/cnblogs/images/</string>
+	<string name="app_update_location_url">/sdcard/cnblogs/apk/cnblogs.apk</string>
+	
+    <string name="app_name">博客园</string>
+    <string name="main_home">博客</string>
+    <string name="main_news">新闻</string>
+    <string name="main_setting">配置</string>
+    <string name="main_search">搜索</string>
+	<string name="main_rss">订阅</string>
+    <string name="main_more">更多</string>
+	
+	<string name="main_more_title">实用工具箱</string>
+    
+    <string name="title_more">推荐应用</string>
+    <string name="title_comment">查看评论</string>
+	
+	<!--RSS阅读-->
+    <string name="btn_rss">订阅</string>
+	<string name="btn_unrss">取消</string>
+	<string name="rss_center_title">订阅中心</string>
+	<string name="rss_add_url_manual">手动添加RSS地址</string>
+	<string name="rss_invalid_url_tips">地址格式不正确</string>
+	<string name="rss_redupicate_tips">此地址已经订阅过</string>
+	<string name="rss_input_url_tips">请输入RSS地址，示例：http://cnblogs.com/rss</string>
+	<string name="rss_succ">订阅成功</string>
+	<string name="rss_fail">订阅失败</string>
+	<string name="unrss_succ">退订成功</string>
+	<string name="unrss_fail">退订失败</string>
+	<string name="fav_succ">收藏成功</string>
+	<string name="fav_fail">收藏失败</string>
+	<string name="unfav_succ">操作成功</string>
+	<string name="unfav_fail">操作失败</string>
+	
+    <!-- 搜索 -->
+    <string name="search_user">用户</string>
+    <string name="search_blog">博客</string>
+    <string name="search_news">新闻</string>
+	
+	<!--排行榜-->
+	<string name="main_order">排行榜</string>
+    
+    <string name="sys_network_error">网络异常，请检查网络设置</string>
+    <string name="sys_unavaible_data">没有数据返回</string>
+    <string name="sys_last_page">已经是最后一页了</string>
+    <string name="sys_error">程序发生异常</string>
+    <string name="sys_ask_quit_app">是否确认退出博客园？</string>
+    <string name="sys_empty_blog_content">获得博客内容为空</string>
+    <string name="sys_empty_comment">目前还没有评论</string>
+	<string name="sys_no_author">用户名不存在，请确认输入是否正确</string>
+	<string name="sys_input_empty">输入不可为空</string>
+	<string name="sys_search_rows">共搜索到{row}项结果</string>
+	<string name="sys_copy_text">已经将内容复制到剪贴板</string>	
+	<string name="sys_fav_exist">已经收藏过了</string>
+    
+    <string name="com_dialog_title_quit">确认退出</string>
+    <string name="com_btn_ok">确认</string>
+    <string name="com_btn_cancel">取消</string>
+	<string name="com_btn_save">保存设置</string>
+    
+    <string name="btn_text_back">返回</string>
+    <string name="btn_text_comment">评论</string>
+	
+	<string name="search_tips">请输入用户名</string>
+	
+	<string name="about_app_label">应用名称：</string>
+	<string name="about_version_label">当前版本：</string>
+	<string name="about_author_label">关于作者：</string>
+	<string name="about_author_cnblogs_link"><u>walkingp</u></string>
+	<string name="about_weibo_add">关注作者微博</string>
+	<string name="about_goto_market">去打个分，评价一下</string>
+	<string name="app_market_url">market://details?id=com.cnblogs.android</string>
+	
+	<string name="comment_floor_label">{n}楼：</string>
+    
+    <!-- 浏览模式：0-图文 1-文字 -->
+    <string name="diaglog_config_read_mode_title">选择浏览模式</string>
+    <string name="config_read_mode_title">选择浏览模式</string>
+    <string name="config_read_mode_desc">建议WIFI下使用图文模式，可显示头像及图片；否则选择文字模式</string>
+    <string name="config_pic_mode">图文模式</string>
+    <string name="config_text_mode">文字模式</string>
+	
+	<string name="config_update_loading_text">正在获取最新版本……</string>
+	<string name="config_update_newest_version">当前程序已经是最新版本</string>
+	<string name="config_update_dialog_title">更新版本</string>
+	<string name="config_update_dialog_new_version">发现一个新版本{version}，{updateRemark}，是否更新？</string>
+	<string name="sdcardUnavailable">存储卡不可用，请加载存储卡重新下载</string>
+	<string name="urlUnavailable">更新路径设置错误，欢迎反馈给作者</string>
+	<string name="notification_done">新版博客园下载完成，点击安装</string>
+	<string name="notification_doing">新版博客园正在下载...</string>
+	<string name="serverParseError">服务器解析错误,请稍候再试</string>
+	<string name="config_read_mode_update_text">阅读模式已更改，将在下次启动时生效</string>
+	<string name="config_clear_cache_succ">缓存文件已经清空完成</string>
+		
+	<!--以下用于存放SharedPreferences的Key-->
+	<string name="preferences_key">currentTab</string>
+	<!--启动tab-->
+	<string name="preferences_current_tab">cnblogs_start_tab</string>
+	<!--是否全屏-->
+	<string name="preferences_is_fullscreen">cnblogs_is_view_fullscreen</string>
+	<!--WebView缩放比例-->
+	<string name="preferences_webview_zoom_scale">cnblogs_webview2_zoom_scale</string>
+	
+	<!--最后一次查询-->
+	<string name="preference_last_search_keyword">cnblogs_last_search</string>
+	<!--下拉刷新-->
+	<string name="pull_to_refresh_more_label">加载更多</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新...</string>
+    <string name="pull_to_refresh_release_label">释放刷新...</string>
+    <string name="pull_to_refresh_refreshing_label">数据加载中...</string>
+    <string name="pull_to_refresh_tap_label">触摸下拉刷新...</string>
+	
+	<!--菜单-->
+	<string name="menu_bar_title">请选择操作</string>
+	<string name="menu_common_view_content">查看内容</string>
+	<string name="menu_common_view_comment">查看评论</string>
+	<string name="menu_common_open_browser">在浏览器中查看</string>
+	<string name="menu_common_share_to">分享到……</string>
+	<string name="menu_main_offline">离线下载</string>
+	<string name="menu_main_about">关于</string>
+	<string name="menu_main_config">配置</string>
+	<string name="menu_main_update">检查更新</string>
+	<string name="menu_main_fav">我的收藏</string>
+	<string name="menu_blog_view_author">查看博主主页</string>
+	<string name="menu_comment_view_author">查看评论者主页</string>
+	<string name="menu_comment_copy_text">复制到剪贴板</string>
+	<string name="menu_detail_back">返回</string>
+	<string name="menu_detail_fontsize">字体大小</string>
+	<string name="menu_detail_refresh">刷新</string>
+	<string name="menu_detail_view_comment">查看评论</string>
+	<string name="menu_detail_open_browser">查看网页</string>
+	<string name="menu_detail_share">分享到</string>
+	<string name="menu_unrss_text">取消订阅</string>
+	<string name="menu_unfav_text">删除收藏</string>
+	<string name="menu_rss_add">加入收藏</string>
+	
+	<!--离线下载-->
+	<string name="dialog_offline_bar_title">离线下载选项</string>
+	<string name="dialog_select_content_label">下载内容：</string>
+	<string name="dialog_select_blog">博客</string>
+	<string name="dialog_select_news">新闻</string>
+	<string name="dialog_select_nums_label">下载条数：</string>
+	<string name="dialog_select_nums">下载内容条数</string>
+	<string name="dialog_select_nums_tips">当前选择下载{0}条</string>
+	<string name="dialog_btn_start_download">开始下载</string>
+	<string name="dialog_no_select_download">请选择所要下载的内容</string>
+	<string name="offline_notification_done">博客园离线下载完成</string>
+	<string name="offline_notification_doing">博客园正在离线下载内容...</string>
+	<string name="offline_notification_start_toast">博客园开始离线下载内容</string>
+	<string name="offline_notification_end_toast">博客园离线下载已经完成,{0}</string>
+	<!--设置字体大小-->
+	<string name="dialog_font_size_bar_title">设置页面字体大小</string>
+	<string name="dialog_font_size_seekbar_label">拖动进度条来改变字体大小</string>
+	<string name="dialog_font_size_seekbar_tips">当前字体比例为{0}</string>
+	<!--清空缓存-->
+	<string name="dialog_clear_cache_bar_title">清空缓存</string>
+	<string name="dialog_clear_cache_label">此操作将会清空离线下载的博客和新闻内容及其图片文件，同时清空内置浏览器缓存文件。</string>
+	<string name="dialog_clear_cache_capcity">当前数据库文件大小为{0}，缓存文件大小为{1}</string>
+ </resources>

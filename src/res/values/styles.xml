@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="main_tab_bottom">
+		<item name="android:textSize">@dimen/font_size_12</item>
+	    <item name="android:textColor">#ffffffff</item>
+	    <item name="android:ellipsize">marquee</item>
+	    <item name="android:gravity">center_horizontal</item>
+	    <item name="android:background">@drawable/home_btn_bg</item>
+	    <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item>
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:button">@null</item>
+	    <item name="android:singleLine">true</item>
+	    <item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item>
+	    <item name="android:layout_weight">1.0</item>  
+		<item name="android:paddingBottom">@dimen/bottom_tab_padding_up</item>
+	</style>
+	<!-- 导航栏文字 -->
+	<style name="txt_app_title_style">
+		<item name="android:textColor">@color/white</item>
+		<item name="android:textSize">@dimen/txt_app_title</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">@dimen/btn_back_height</item>
+		<item name="android:shadowColor">#0F4689</item>
+		<item name="android:shadowDx">1</item>
+		<item name="android:shadowDy">1</item>
+		<item name="android:shadowRadius">3</item>
+	</style>
+	<!-- 空数据文字 -->
+	<style name="txt_empty_data_style">
+		<item name="android:textColor">@color/lightgray</item>
+		<item name="android:textSize">@dimen/txt_app_title</item>
+		<item name="android:gravity">center</item>
+		<item name="android:shadowColor">#CCCCCC</item>
+		<item name="android:shadowDx">1</item>
+		<item name="android:shadowDy">1</item>
+		<item name="android:layout_centerInParent">true</item>
+		<item name="android:shadowRadius">1</item>
+		<item name="android:visibility">gone</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+	</style>
+	<!-- 返回 -->
+	<style name="btn_back_style">
+		<item name="android:textColor">@color/white</item>
+		<item name="android:textSize">@dimen/font_size_14</item>
+		<item name="android:background">@drawable/drawable_btn_back</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">@dimen/btn_back_height</item>
+	</style>	
+	<!-- 刷新 -->
+	<style name="btn_refresh_style">
+		<item name="android:textColor">@color/white</item>
+		<item name="android:textSize">@dimen/font_size_14</item>
+		<item name="android:background">@drawable/drawable_btn_refresh</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">@dimen/btn_back_height</item>
+	</style>	
+	<!-- 评论 -->
+	<style name="btn_comment_style">
+		<item name="android:textColor">@color/white</item>
+		<item name="android:textSize">@dimen/font_size_14</item>
+		<item name="android:background">@drawable/drawable_btn_comment</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">@dimen/btn_back_height</item>
+	</style>
+	<!-- 关注微博 -->
+	<style name="btn_weibo_style">
+		<item name="android:textColor">@color/white</item>
+		<item name="android:textSize">@dimen/font_size_14</item>
+		<item name="android:background">@drawable/drawable_btn_weibo</item>
+		<item name="android:gravity">center</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">@dimen/btn_back_height</item>
+	</style>
+	<!-- 头部进度条 -->
+	<style name="toolbar_progressbar_style" parent="@android:style/Widget.ProgressBar.Large">
+		<item name="android:indeterminateDrawable">@drawable/progressbar_drawable</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:layout_width">@dimen/top_bar_progressbar_width</item>
+		<item name="android:layout_height">@dimen/top_bar_progressbar_width</item>
+		<item name="android:visibility">gone</item>
+	</style>	
+	<!--主体进度条-->
+	<style name="body_progressbar_style" parent="@android:style/Widget.ProgressBar.Large">
+		<item name="android:indeterminateDrawable">@drawable/progressbar_moreloading</item>
+		<item name="android:layout_centerVertical">true</item>
+		<item name="android:layout_width">@dimen/body_progressbar_width</item>
+		<item name="android:layout_height">@dimen/body_progressbar_width</item>
+		<item name="android:visibility">gone</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:background">@color/transparent</item>
+	</style>
+	<!-- 搜索类别 -->
+	<style name="toolbar_tab_style">
+		<item name="android:textSize">15.0sp</item>
+		<item name="android:textColor">@drawable/toolbar_text_color</item>
+		<item name="android:ellipsize">marquee</item>
+		<item name="android:gravity">center_horizontal</item>
+		<item name="android:background">@null</item>
+		<item name="android:paddingTop">1.0dip</item>
+		<item name="android:paddingBottom">1.0dip</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:button">@null</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:drawablePadding">0.0dip</item>
+		<item name="android:layout_weight">1.0</item>
+	</style>	
+	<!-- 右上角刷新 -->
+	<style name="toolbar_fl_style">
+		<item name="android:layout_alignParentRight">true</item>
+		<item name="android:layout_centerVertical">true</item>
+		<item name="android:layout_marginRight">@dimen/top_bar_progressbar_margin_right</item>
+		<item name="android:layout_width">36dip</item>
+		<item name="android:layout_height">32dip</item>
+	</style>
+	<!-- 右上角评论 -->
+	<style name="toolbar_comment_style">
+		<item name="android:layout_alignParentRight">true</item>
+		<item name="android:layout_centerVertical">true</item>
+		<item name="android:layout_marginRight">@dimen/top_bar_progressbar_margin_right</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">@dimen/btn_back_height</item>
+	</style>		
+	<!-- 搜索 -->
+	<style name="btn_search_style">
+		<item name="android:layout_alignParentRight">true</item>
+		<item name="android:layout_centerVertical">true</item>
+		<item name="android:layout_marginLeft">@dimen/top_bar_progressbar_margin_right</item>
+		<item name="android:layout_width">34px</item>
+		<item name="android:layout_height">34px</item>
+	</style>	
+	<!-- 显示更多 -->
+	<style name="pull_to_refresh_listview_style">
+		<item name="android:divider">@drawable/line</item>
+		<item name="android:dividerHeight">@dimen/divider_height</item>
+		<item name="android:cacheColorHint">#00000000</item>
+		<item name="android:fadingEdge">none</item>
+		<item name="android:fastScrollEnabled">true</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+	</style>
+	<!-- 设置界面 -->
+	<style name="win_setting">
+		<item name="android:background">@color/black</item>
+		<item name="android:windowBackground">@color/black</item>
+		<item name="android:focusable">false</item>
+		<item name="android:textColor">@color/black</item>
+		<item name="android:cacheColorHint">@color/black</item>
+	</style>
+	<!--链接文字-->
+	<style name="link_text_style">
+		<item name="android:textColor">@color/blue</item>		
+	</style>
+	<!--Activity主题-->
+	<style name="ContentOverlay" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+	<!--订阅按钮-->
+	<style name="btn_rss_style">
+		<item name="android:layout_width">50dip</item>
+		<item name="android:layout_height">25dip</item>
+		<item name="android:textColor">@color/darkblue</item>
+		<item name="android:layout_alignParentRight">true</item>
+		<item name="android:focusable">false</item>
+		<item name="android:layout_centerVertical">true</item>
+		<item name="android:background">@drawable/drawable_btn_rss</item>
+		<item name="android:text">@string/btn_rss</item>
+	</style>
+	<!--ListView公共样式-->
+	<style name="listview_style">
+		<item name="android:cacheColorHint">@color/bg_color</item>
+		<item name="android:divider">@drawable/line</item>
+		<item name="android:dividerHeight">1dip</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:fadingEdge">none</item>
+		<item name="android:fastScrollEnabled">true</item>
+		<item name="android:focusable">true</item>
+		<item name="android:layout_height">fill_parent</item>
+	</style>
+</resources>

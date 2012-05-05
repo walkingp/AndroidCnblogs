@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:paddingTop="10dip" android:paddingBottom="15dip"
+	android:gravity="center" android:id="@+id/pull_to_refresh_header">
+	<ProgressBar android:id="@+id/pull_to_refresh_progress"
+		android:indeterminate="true" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginLeft="30dip"
+		android:visibility="gone" android:layout_centerVertical="true"
+		style="?android:attr/progressBarStyleSmall" >
+	</ProgressBar>
+	<ImageView android:id="@+id/pull_to_refresh_image"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginLeft="30dip" android:layout_marginRight="20dip"
+		android:visibility="gone" android:layout_gravity="center"
+		android:gravity="center" android:src="@drawable/ic_pulltorefresh_arrow" >
+	</ImageView>
+	<TextView android:id="@+id/pull_to_refresh_text" android:text="@string/pull_to_refresh_tap_label"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textStyle="bold" android:paddingTop="5dip"
+		android:textColor="@color/black"
+		android:textSize="@dimen/font_size_14"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_gravity="center" android:gravity="center" >
+	</TextView>
+	<TextView android:id="@+id/pull_to_refresh_updated_at"
+		android:layout_below="@+id/pull_to_refresh_text" android:visibility="gone"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:textColor="@color/black"
+		android:textSize="@dimen/font_size_14"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_gravity="center" android:gravity="center" >
+	</TextView>
+</RelativeLayout>

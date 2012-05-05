@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="green">#ff008800</color>
+	<color name="white">#ffffffff</color>
+	<color name="transparent">#00000000</color>
+	<color name="gray">#ff666666</color>
+	<color name="black">#ff000000</color>
+	<color name="lightgray">#eeaaaaaa</color>
+	<color name="darkgray">#99333333</color>
+	<color name="lucid">#66666666</color>
+	<color name="hint_color">#ffc0c0c0</color>
+	<color name="blue">#ff0000ff</color>
+	
+	<color name="darkblue">#ff3E5E00</color>
+	
+	<color name="audio_bg_color">#77c0c0c0</color>
+	
+	<color name="divider_color">#eecbcbcb</color>
+	<color name="bg_color">#ffededee</color>
+	
+	<color name="bg_click_color">#776c88ae</color>
+	
+	<color name="nav_shadow_color">#ffe4e4e4</color>
+	
+	<color name="copyright_color">#ff999999</color>
+	
+	<color name="click_color">#ff6c88ae</color>
+</resources>

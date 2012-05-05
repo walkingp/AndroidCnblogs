@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:orientation="vertical"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    >  
+    <LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="2dip"
+		android:layout_marginBottom="4dip"
+		android:layout_marginLeft="10dip"
+		android:gravity="left|center_vertical"
+		android:orientation="horizontal" android:layout_gravity="">
+			<RelativeLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<ImageView android:id="@+id/list_image_arrow" android:layout_width="10dip" android:layout_height="10dip"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true" android:src="@drawable/gofor"/>
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="wrap_content" 
+					android:layout_marginTop="2dip"
+					android:layout_toLeftOf="@id/list_image_arrow"
+					android:layout_marginLeft="5dip" android:layout_marginRight="5dip"
+					android:gravity="left|center_vertical"
+					android:orientation="vertical">
+					<TextView android:textSize="16sp" android:singleLine="true"
+						android:textStyle="bold" android:textColor="@color/black"
+						android:id="@+id/recommend_text_title" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" />
+					<TextView android:textSize="14sp"
+						android:textColor="@color/darkgray" android:id="@+id/recommend_text_desc"
+						android:layout_width="fill_parent" android:layout_height="fill_parent"
+						android:gravity="center_vertical"
+						android:maxLines="2" />
+					<TextView android:id="@+id/recommend_text_full_text" android:visibility="gone"
+						android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+					<TextView
+						android:id="@+id/recommend_text_id"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:visibility="gone"
+						></TextView>
+					<TextView
+						android:id="@+id/recommend_text_url"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:visibility="gone"
+						></TextView>
+					<LinearLayout android:layout_width="wrap_content"
+						android:layout_height="wrap_content" 
+						android:layout_marginTop="0dip"
+						android:layout_marginBottom="0dip"
+						android:gravity="left|center_vertical"
+						android:orientation="horizontal">						
+					   <TextView
+					   android:id="@+id/recommend_text_author"
+					   android:layout_width="wrap_content"
+					   android:layout_height="wrap_content"
+					   android:layout_marginRight="4sp"
+					   android:visibility="gone"
+					   ></TextView>
+						<TextView
+					   android:id="@+id/recommend_text_date"
+					   android:layout_width="wrap_content"
+					   android:layout_height="wrap_content"
+					   android:visibility="gone"
+					   ></TextView>
+					   <TextView android:textSize="12sp"
+							android:id="@+id/recommend_text_date_label"
+							android:text="发表:"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							></TextView>
+					   <TextView android:textSize="12sp"
+					   android:id="@+id/recommend_text_formatdate"
+					   android:layout_width="wrap_content"
+					   android:layout_height="wrap_content"
+					   ></TextView>		  				  			
+						<TextView android:textSize="12sp"
+							android:id="@+id/recommend_text_diggs_label"
+							android:layout_marginLeft="4sp"
+							android:text="分类:"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							></TextView>
+						<TextView android:textSize="12sp"
+							android:id="@+id/recommend_text_cate"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							></TextView>
+					</LinearLayout>
+				</LinearLayout>
+			</RelativeLayout>
+	</LinearLayout>
+</LinearLayout>

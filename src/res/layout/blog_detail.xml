@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@color/bg_color"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<RelativeLayout android:background="@drawable/head" 
+		android:id="@+id/rl_blog_detail"
+		android:layout_width="fill_parent" 
+		android:layout_height="@dimen/top_bar_height" >
+		<Button android:id="@+id/blog_button_back"
+			style="@style/btn_back_style"
+			android:layout_alignParentLeft="true"
+			android:text="@string/btn_text_back"
+			android:layout_centerVertical="true"
+			android:layout_marginLeft="@dimen/btn_back_margin_left"/>		
+		<TextView android:id="@+id/txtAppTitle"
+		android:text="@string/main_home"
+		android:layout_centerInParent="true"
+		style="@style/txt_app_title_style"></TextView>			
+		<!-- 评论按钮 -->
+		<Button android:id="@+id/blog_comment_btn"
+		style="@style/btn_comment_style"
+		android:layout_alignParentRight="true"
+		android:text="@string/btn_text_comment"
+		android:layout_centerVertical="true"
+		android:layout_marginRight="@dimen/btn_back_margin_left"/>
+	</RelativeLayout>	
+	<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+    	<WebView android:id="@+id/blog_body_webview_content" 
+				android:layout_height="fill_parent" android:layout_width="fill_parent"
+				/>
+		<ProgressBar
+		android:id="@+id/blogBody_progressBar"
+		style="@style/body_progressbar_style" mce_style="?android:attr/progressBarStyleLarge" />
+	</FrameLayout>
+</LinearLayout>

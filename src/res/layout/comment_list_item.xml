@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:orientation="vertical"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"  
+    >      
+    <LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="2dip"
+		android:layout_marginBottom="4dip"
+		android:layout_marginLeft="10dip" android:layout_marginRight="2dip"
+		android:gravity="left|center_vertical"
+		android:orientation="vertical" android:layout_gravity="">
+		<!-- 评论人、时间 -->
+		<RelativeLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:layout_marginTop="2dip"
+				android:layout_marginLeft="5dip" android:layout_marginRight="5dip"
+				android:gravity="left|center_vertical"
+				android:orientation="horizontal">
+			<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:gravity="left|center_vertical"
+			android:orientation="horizontal">
+			<!--显示当前楼层-->
+			<TextView android:text="@string/comment_floor_label"
+				android:textStyle="bold" android:textColor="@color/black"
+				android:id="@+id/comment_floor" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<TextView android:layout_alignParentLeft="true"
+			android:textStyle="bold" android:textColor="@color/gray"
+			android:id="@+id/comment_user_name" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+			</LinearLayout>
+			<TextView
+			android:id="@+id/comment_user_url" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:visibility="gone"/>
+			<TextView
+			android:id="@+id/comment_id" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:visibility="gone"/>
+			<TextView
+			android:id="@+id/comment_date" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:visibility="gone"/>
+			<TextView android:layout_alignParentRight="true"
+			android:textColor="@color/green"
+			android:textSize="@dimen/font_size_12"
+			android:id="@+id/comment_format_date" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+		</RelativeLayout>
+		<!-- 内容 -->
+		<LinearLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_marginTop="2dip"
+			android:layout_marginLeft="5dip" android:layout_marginRight="5dip"
+			android:gravity="left|center_vertical"
+			android:orientation="vertical">
+			<TextView
+				android:textStyle="bold" android:textColor="@color/black"
+				android:id="@+id/comment_content" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

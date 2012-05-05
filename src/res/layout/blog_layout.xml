@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@color/bg_color"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<RelativeLayout android:background="@drawable/head" 
+		android:id="@+id/rl_recommend"
+		android:layout_width="fill_parent" 
+		android:layout_height="@dimen/top_bar_height" >
+		<TextView android:id="@+id/txtAppTitle"
+		android:text="@string/app_name"
+		android:layout_centerInParent="true"
+		style="@style/txt_app_title_style"></TextView>
+		<FrameLayout style="@style/toolbar_fl_style">
+			<ProgressBar
+				mce_style="?android:attr/progressBarStyleLarge"
+				style="@style/toolbar_progressbar_style"
+				android:id="@+id/blog_progressBar"/>
+			<ImageButton android:id="@+id/blog_refresh_btn"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:background="@drawable/drawable_btn_refresh"/>
+		</FrameLayout>			
+	</RelativeLayout>	
+	<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<!--拖动加载-->
+   <com.cnblogs.android.controls.PullToRefreshListView 
+     android:id="@+id/blog_list"
+     style="@style/listview_style">
+	 </com.cnblogs.android.controls.PullToRefreshListView>
+	 <ProgressBar
+		android:id="@+id/blogList_progressBar"
+		style="@style/body_progressbar_style" mce_style="?android:attr/progressBarStyleLarge" />
+	</FrameLayout>
+</LinearLayout>

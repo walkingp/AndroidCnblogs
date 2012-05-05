@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout="@style/win_setting"
+	android:orderingFromXml="true" android:title="系统设置">
+	<PreferenceCategory android:title="系统设置">
+		<Preference android:key="config_clear_cache" android:title="清除本地缓存"
+			android:summary="清除离线下载的内容和浏览器缓存内容" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="浏览设置">
+        <CheckBoxPreference android:key="config_is_horizontal"  
+                android:title="允许横竖屏切换"
+				android:summaryOn="当前设置允许横竖屏切换"
+				android:summaryOff="当前设置不允许横竖屏切换"
+                android:summary="系统默认允许横竖屏切换" />  
+		<ListPreference android:entries="@array/array_config_read_mode_entries"
+		 android:title="@string/config_read_mode_title"
+		 android:key="config_read_mode"
+		 android:summary="@string/config_read_mode_desc"
+		 android:defaultValue="0"
+		 android:dialogTitle="@string/diaglog_config_read_mode_title" 
+		 android:entryValues="@array/array_config_read_mode_value" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="关于">
+		<Preference android:key="config_about" android:title="关于本程序"
+			android:summary="查看本程序的开发信息" />
+		<Preference android:key="config_update" android:title="检查更新"
+			android:summary="检查是否有更新的版本" />
+	</PreferenceCategory>
+</PreferenceScreen>

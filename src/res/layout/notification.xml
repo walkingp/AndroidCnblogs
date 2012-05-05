@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:id="@+id/notify_download_done"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:orientation="horizontal" android:gravity="center_vertical">
+			<ImageView android:src="@drawable/ico_search" android:scaleType="fitCenter" android:layout_marginLeft="3dip"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+			<TextView android:layout_marginLeft="5dip"
+				android:text="@string/notification_done"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" 
+				android:textColor="@color/black" android:textSize="16sp" />
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical" android:id="@+id/progressBlock"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dip"
+			android:layout_marginLeft="8dip" android:orientation="horizontal">
+				<ImageView android:src="@drawable/ico_search" android:scaleType="fitCenter"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+				<TextView android:id="@+id/notify_text_title" android:text="@string/notification_doing"
+				android:textStyle="bold" android:layout_width="wrap_content" android:layout_marginLeft="5dip"
+				android:layout_height="wrap_content" android:textColor="@color/black" android:textSize="16sp" />
+			</LinearLayout>
+			<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_marginTop="3dip"
+			android:layout_height="wrap_content" >
+				<TextView android:id="@+id/text_percent" android:textColor="@color/gray" android:textSize="13sp"
+				android:layout_marginLeft="8dip"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+				<ProgressBar
+			         android:id="@+id/notify_ProgressBar"
+			         style="?android:attr/progressBarStyleHorizontal" mce_style="?android:attr/progressBarStyleHorizontal"     
+			         android:layout_width="fill_parent"
+			         android:layout_height="wrap_content"
+			         />
+			</LinearLayout>
+		</LinearLayout>
+	</FrameLayout>
+</LinearLayout>

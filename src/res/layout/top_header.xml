@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@color/bg_color"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="@dimen/header_height">
+	<ImageView android:id="@+id/top_header_imageview"
+		android:src="@drawable/head"
+		android:layout_width="fill_parent"
+		android:layout_height="@dimen/header_image_height"
+		android:scaleType="fitXY"
+		/>
+	<RelativeLayout
+		android:background="@drawable/bg_banner" android:gravity="center_vertical"
+		android:layout_width="fill_parent" android:layout_height="@dimen/header_banner_height">
+		<TextView android:textColor="@color/white" 
+			android:layout_alignParentLeft="true"
+			android:layout_marginLeft="3dip"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="12sp" 
+			android:id="@+id/textview_head"
+			android:singleLine="true"/>
+	</RelativeLayout>
+</LinearLayout>

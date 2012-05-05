@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@color/bg_color"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<RelativeLayout android:background="@drawable/head" 
+		android:id="@+id/rl_recommend"
+		android:layout_width="fill_parent" 
+		android:layout_height="@dimen/top_bar_height" >
+		<!-- 应用名 -->
+		<TextView android:id="@+id/txtAppTitle"
+		android:text="@string/main_search"
+		android:layout_centerInParent="true"
+		style="@style/txt_app_title_style"></TextView>	
+		<FrameLayout android:id="@+id/frameLayout" style="@style/toolbar_fl_style">
+			<ImageButton android:id="@+id/btnItem"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:background="@drawable/drawable_btn_list_selector"/>
+		</FrameLayout>	
+	</RelativeLayout>
+	<!-- 搜索类别 -->
+	<RelativeLayout
+		android:background="@drawable/bg_search"
+	 	android:layout_width="fill_parent"
+		android:layout_height="40dip"
+		android:layout_marginLeft="10px"
+		android:layout_marginTop="10px"
+		android:layout_marginBottom="10px"
+		android:layout_marginRight="10px"
+		android:gravity="center_vertical">
+		<!--搜索-->
+		<ImageButton android:id="@+id/search_btn"
+		style="@style/btn_search_style"
+		android:background="@drawable/drawable_btn_search"
+		android:layout_toLeftOf="@dimen/btn_back_margin_left"/>		
+		<EditText
+		android:textSize="@dimen/font_size_14"
+		android:singleLine="true"
+		android:background="@null"
+		android:id="@+id/txtSearch"
+		android:layout_width="fill_parent"
+		android:layout_height="40dip"
+		android:hint="@string/search_tips"	
+		android:textColor="@color/black"
+		android:textColorHint="@color/lightgray"			
+		android:layout_toLeftOf="@id/search_btn"
+   ></EditText>
+	</RelativeLayout>
+	<!-- 显示区 -->
+	<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+   <ListView 
+     android:id="@+id/search_list"
+     style="@style/listview_style">
+	 </ListView>
+	 <ProgressBar
+		android:id="@+id/searchList_progressBar"
+		style="@style/body_progressbar_style" mce_style="?android:attr/progressBarStyleLarge" />
+	</FrameLayout>
+</LinearLayout>

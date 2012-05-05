@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_main_offline" android:icon="@android:drawable/ic_menu_always_landscape_portrait" android:title="@string/menu_main_offline" />
+    <item android:id="@+id/menu_main_fav" android:icon="@drawable/ic_menu_star" android:title="@string/menu_main_fav" />
+    <item android:id="@+id/menu_main_config" android:icon="@android:drawable/ic_menu_preferences" android:title="@string/menu_main_config" />
+    <item android:id="@+id/menu_main_about" android:icon="@android:drawable/ic_menu_info_details" android:title="@string/menu_main_about" />
+</menu>

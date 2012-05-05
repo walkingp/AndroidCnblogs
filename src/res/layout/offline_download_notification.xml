@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<LinearLayout android:id="@+id/notify_download_done"
+			android:layout_width="wrap_content" android:layout_height="fill_parent"
+			android:orientation="horizontal" android:gravity="center_vertical">
+			<TextView android:layout_marginLeft="5dip"
+				android:text="@string/offline_notification_done"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" 
+				android:textColor="@color/white" android:textSize="16sp" />
+		</LinearLayout>
+		<LinearLayout android:orientation="vertical" android:id="@+id/progressBlock"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dip"
+			 android:orientation="horizontal">				
+				<TextView android:id="@+id/text_percent" android:textColor="@color/white" android:textSize="14sp" android:layout_marginLeft="5dip"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+				<TextView android:id="@+id/notify_text_title" android:text="@string/offline_notification_doing"
+					 android:singleLine="true"
+				android:textStyle="bold" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:textColor="@color/white" android:textSize="16sp" />
+			</LinearLayout>
+			<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_marginTop="3dip"
+			android:layout_height="wrap_content" >
+				<ProgressBar android:layout_marginLeft="5dip" android:layout_marginRight="5dip"
+			         android:id="@+id/notify_ProgressBar"
+			         style="?android:attr/progressBarStyleHorizontal" mce_style="?android:attr/progressBarStyleHorizontal"     
+			         android:layout_width="fill_parent"
+			         android:layout_height="wrap_content"
+			         />
+			</LinearLayout>
+		</LinearLayout>
+	</FrameLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menu_blog_back" android:icon="@android:drawable/ic_menu_revert"
+		 android:title="@string/menu_detail_back" />
+	<item android:id="@+id/menu_blog_add_fav" android:icon="@drawable/ic_menu_star" android:title="@string/menu_rss_add" />
+	<item android:id="@+id/menu_blog_comment" android:icon="@drawable/ic_menu_start_conversation"
+		 android:title="@string/menu_detail_view_comment" />
+	<item android:id="@+id/menu_blog_author" android:icon="@drawable/ic_menu_allfriends"
+		 android:title="@string/menu_blog_view_author" />
+	<item android:id="@+id/menu_blog_browser" android:icon="@android:drawable/ic_menu_view"
+		 android:title="@string/menu_detail_open_browser" />
+	<item android:id="@+id/menu_blog_share" android:icon="@android:drawable/ic_menu_share"
+		 android:title="@string/menu_detail_share" />
+</menu>

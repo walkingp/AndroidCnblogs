@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/linearAbout"
+  android:orientation="vertical"
+  android:clickable="true"
+  android:background="@drawable/splash"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+	<LinearLayout android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:gravity="center_vertical"
+		android:layout_marginLeft="100dip" 
+		android:layout_marginTop="20dip" 
+		android:orientation="vertical">
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	>
+		<TextView android:text="@string/about_app_label" android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"/>
+		<TextView android:text="@string/app_name" android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"/>	
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	>
+		<TextView android:text="@string/about_version_label" android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"/>
+		<TextView android:text="1.0" android:layout_width="wrap_content" android:id="@+id/txtAppVersion"
+    	android:layout_height="wrap_content"/>			
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<TextView android:text="@string/about_author_label" android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"/>
+		<TextView android:text="@string/about_author_cnblogs_link" android:layout_width="wrap_content"
+		android:id="@+id/txtAppAuthor"
+		style="@style/link_text_style"
+    	android:layout_height="wrap_content"/>	
+	</LinearLayout>
+	</LinearLayout>
+	<!--评价-->
+		<Button android:id="@+id/about_weibo_btn"
+		style="@style/btn_weibo_style"
+		android:text="@string/about_goto_market"
+		android:layout_marginBottom="180dip"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"/>
+</RelativeLayout>

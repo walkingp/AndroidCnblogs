@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/menu_news_back" android:icon="@android:drawable/ic_menu_revert"
+		 android:title="@string/menu_detail_back" />
+	<item android:id="@+id/menu_news_fontsize" android:icon="@android:drawable/ic_menu_sort_alphabetically"
+		 android:title="@string/menu_detail_fontsize" />
+	<item android:id="@+id/menu_news_refresh" android:icon="@drawable/ic_menu_rotate"
+		 android:title="@string/menu_detail_refresh" />
+	<item android:id="@+id/menu_news_comment" android:icon="@drawable/ic_menu_start_conversation"
+		 android:title="@string/menu_detail_view_comment" />
+	<item android:id="@+id/menu_news_browser" android:icon="@android:drawable/ic_menu_view"
+		 android:title="@string/menu_detail_open_browser" />
+	<item android:id="@+id/menu_news_share" android:icon="@android:drawable/ic_menu_share"
+		 android:title="@string/menu_detail_share" />
+</menu>

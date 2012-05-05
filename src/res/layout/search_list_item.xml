@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:orientation="vertical"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    >  
+    <LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="2dip"
+		android:layout_marginBottom="4dip"
+		android:layout_marginLeft="10dip"
+		android:gravity="left|center_vertical"
+		android:orientation="horizontal" android:layout_gravity="">
+			<ImageView android:id="@+id/author_list_avatar"
+				android:layout_marginTop="2dip"
+				android:layout_marginBottom="8dip"
+				android:layout_height="38dip"
+				android:src="@drawable/sample_face"
+				android:layout_width="38dip" android:scaleType="fitXY"
+				android:layout_marginLeft="5dip" />
+			<RelativeLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<ImageView android:id="@+id/user_list_image_arrow" android:layout_width="10dip" 
+					android:layout_height="10dip"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true" android:src="@drawable/gofor"/>
+				<LinearLayout android:layout_width="fill_parent"
+					android:layout_height="wrap_content" 
+					android:layout_toLeftOf="@id/user_list_image_arrow"
+					android:layout_marginLeft="5dip" android:layout_marginRight="5dip"
+					android:gravity="left|center_vertical"
+					android:orientation="vertical">
+					<!--博客标题、现居地-->
+					<LinearLayout android:layout_width="wrap_content"
+						android:layout_height="wrap_content" 
+						android:layout_marginTop="0dip"
+						android:layout_marginBottom="0dip"
+						android:gravity="left|center_vertical"
+						android:orientation="horizontal">
+					<TextView android:textSize="16sp" android:singleLine="true"
+						android:textStyle="bold" android:textColor="@color/black"
+						android:id="@+id/author_list_title" android:layout_width="wrap_content"
+						android:layout_height="wrap_content" />
+					<TextView android:textSize="12sp"
+					   android:id="@+id/author_list_city"
+						android:text=" (上海 浦东)"
+					   android:layout_width="wrap_content"
+					   android:layout_height="wrap_content"
+						android:visibility="gone"
+					   ></TextView>					
+					</LinearLayout>
+					<!--url-->	
+					<LinearLayout android:layout_width="wrap_content"
+						android:layout_height="wrap_content" 
+						android:layout_marginTop="0dip"
+						android:layout_marginBottom="0dip"
+						android:gravity="left|center_vertical"
+						android:orientation="horizontal">
+					<TextView android:textSize="14sp"
+						android:textColor="@color/darkgray"
+						android:text="博客："
+						android:visibility="gone"
+						android:layout_width="fill_parent" android:layout_height="wrap_content"
+						android:gravity="center_vertical" />		
+					<TextView android:textSize="14sp"
+						android:textColor="@color/darkgray" android:id="@+id/author_list_url"
+						android:layout_width="fill_parent" android:layout_height="wrap_content"
+						android:gravity="center_vertical"
+						android:maxLines="2" />	
+					<TextView android:textSize="14sp"
+						android:textColor="@color/darkgray" android:id="@+id/author_list_username"
+						android:layout_width="fill_parent" android:layout_height="wrap_content"
+						android:visibility="gone"
+						android:gravity="center_vertical" />				
+					</LinearLayout>
+					<LinearLayout android:layout_width="wrap_content"
+						android:layout_height="wrap_content" 
+						android:layout_marginTop="0dip"
+						android:layout_marginBottom="0dip"
+						android:gravity="left|center_vertical"
+						android:orientation="horizontal">
+					   <TextView android:textSize="12sp"
+							android:id="@+id/author_list_blogcount_label"
+							android:text="随笔数："
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							></TextView>
+					   <TextView android:textSize="12sp"
+					   android:id="@+id/author_list_blogcount"
+					   android:layout_width="wrap_content"
+					   android:layout_height="wrap_content"
+					   ></TextView>		  				  			
+						<TextView android:textSize="12sp"
+							android:id="@+id/author_list_update_label"
+							android:layout_marginLeft="4sp"
+							android:text="最后更新："
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							></TextView>
+						<TextView android:textSize="12sp"
+							android:id="@+id/author_list_update"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							></TextView>
+						<TextView android:textSize="12sp"
+							android:id="@+id/author_birth_label"
+							android:text="入园时间："
+							android:layout_marginLeft="4sp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:visibility="gone"
+						 	></TextView>
+						<TextView android:textSize="12sp"
+							android:id="@+id/author_birth"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							></TextView>
+					</LinearLayout>
+				</LinearLayout>
+			</RelativeLayout>
+	</LinearLayout>
+</LinearLayout>
