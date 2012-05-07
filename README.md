@@ -7,10 +7,10 @@
 
 2、我想加入这个开源项目？
 欢迎以下人员加入：
-a、对Android开发很感兴趣，学习借鉴一下其他项目的经验； 
-b、觉得这个Android客户端用着很不爽，想加入自己想要的功能和想法； 
-c、觉得UI好丑！来设计一下更好的UI； 
-d、重构达人，看不惯蹩脚的代码，要让应用的性能大幅度提升。 
+*、对Android开发很感兴趣，学习借鉴一下其他项目的经验； 
+*、觉得这个Android客户端用着很不爽，想加入自己想要的功能和想法； 
+*、觉得UI好丑！来设计一下更好的UI； 
+*、重构达人，看不惯蹩脚的代码，要让应用的性能大幅度提升。 
 
 
 应用主页：
@@ -21,9 +21,9 @@ https://github.com/walkingp/AndroidCnblogs
 更多问题可以到讨论小组：
 http://home.cnblogs.com/group/AndroidCnblogs/
 
-=================================================================================================
-Cnblogs Android Client
 
+Cnblogs Android Client
+======================
 Welcome to the cnblogs android client developer team,I am the author named walkingp,this code contains all the source,and the design material,and the database designment document.The cnblogs android client had realsed two versions,cause the personal idle time is too few,and also wanna get it better by many people,please read the following carefully:
 
 1,About the the cnblogs android client's code.
