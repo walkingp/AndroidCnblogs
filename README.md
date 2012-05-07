@@ -26,24 +26,24 @@ d、重构达人，看不惯蹩脚的代码，要让应用的性能大幅度提�
 
 Cnblogs Android Client
 ======================
-Welcome to the cnblogs android client developer team,I am the author named [walkingp](http://walkingp.com),this code contains all the source,and the design material,and the database designment document.The cnblogs android client had realsed two versions,cause the personal idle time is too few,and also wanna get it better by many people.
+Welcome to Cnblogs Android Client developer team,I am the author named [walkingp](http://walkingp.com),this contains both source code, design,and database designment document.The cnblogs android client had been realeased two versions. From now on my idle time is few, so I wanna make it better by you and me.
 
 #####Please read the following carefully:
 
 #####1,About the the cnblogs android client's code.
-The code based under the MIT lisence and GPL lisence,In other words,you can download,broadcast,modify and compile the code in any way,but please don't use them to the business and close source project.
+The code based under the MIT lisence and GPL lisence,In other words,you can download,broadcast,modify and compile the code in any way,but please don't use them to business or close source project.
 
-#####2,How can I join in this project?
-If you are the one of the following,welcome to join us:
-a,Very instrested in android develpment,and thirst for learing from the projects; 
-b,This andriod client is shit,wanna the more perfect app with your own idea;
-c,Don't like the UI,wanna mix your own idea;
-d,I'm a rework crazy guy,I hate the ugly code,I wanna the more fast performance.
+#####2,How can I join this project?
+If you has following demand, you're welcomed to join us:
+a,Very instrested in android develpment,and crazy for learing through projects; 
+b,This android client is shit,I wanna add my own;
+c,Don't like the interface,repaint it;
+d,I'm a geeker,or restruction crazy guy,I hate the ugly code,I will let it performance better.
 
-#####The homepage:
+#####Homepage:
 [http://android.walkingp.com](http://android.walkingp.com)
-#####The source:
+#####Project:
 [https://github.com/walkingp/AndroidCnblogs](https://github.com/walkingp/AndroidCnblogs)
 
-#####You can also get more information in the discuss community(in Chinese):
+#####Learn more at:
 [http://home.cnblogs.com/group/AndroidCnblogs/](http://home.cnblogs.com/group/AndroidCnblogs/)
