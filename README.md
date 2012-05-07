@@ -30,7 +30,7 @@ Welcome to the cnblogs android client developer team,I am the author named [walk
 
 #####Please read the following carefully:
 
-#####1,About the the cnblogs android client's code.
+#####1,About the cnblogs android client's code.
 The code based under the MIT lisence and GPL lisence,In other words,you can download,broadcast,modify and compile the code in any way,but please don't use them to the business and close source project.
 
 #####2,How can I join in this project?
