@@ -26,7 +26,7 @@ d、重构达人，看不惯蹩脚的代码，要让应用的性能大幅度提�
 
 Cnblogs Android Client
 ======================
-Welcome to the cnblogs android client developer team,I am the author named [walkingp](http://walkingp.com),this code contains all the source,and the design material,and the database designment document.The cnblogs android client had realsed two versions,cause the personal idle time is too few,and also wanna get it better by many people.
+Welcome to the cnblogs android client developer team,I am the author named [walkingp](http://walkingp.com),this code contains all the source,the design material and the database designment document.The cnblogs android client had realsed two versions,cause the personal idle time is too few,and also wanna get it better by many people.
 
 #####Please read the following carefully:
 
