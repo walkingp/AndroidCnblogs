@@ -7,19 +7,19 @@
 
 2、我想加入这个开源项目？
 欢迎以下人员加入：
-*、对Android开发很感兴趣，学习借鉴一下其他项目的经验； 
-*、觉得这个Android客户端用着很不爽，想加入自己想要的功能和想法； 
-*、觉得UI好丑！来设计一下更好的UI； 
-*、重构达人，看不惯蹩脚的代码，要让应用的性能大幅度提升。 
+a、对Android开发很感兴趣，学习借鉴一下其他项目的经验； 
+b、觉得这个Android客户端用着很不爽，想加入自己想要的功能和想法； 
+c、觉得UI好丑！来设计一下更好的UI； 
+d、重构达人，看不惯蹩脚的代码，要让应用的性能大幅度提升。 
 
 
 应用主页：
-http://android.walkingp.com
+[http://android.walkingp.com](http://android.walkingp.com)
 项目主页：
-https://github.com/walkingp/AndroidCnblogs
+[https://github.com/walkingp/AndroidCnblogs](https://github.com/walkingp/AndroidCnblogs)
 
 更多问题可以到讨论小组：
-http://home.cnblogs.com/group/AndroidCnblogs/
+[http://home.cnblogs.com/group/AndroidCnblogs/](http://home.cnblogs.com/group/AndroidCnblogs/)
 
 
 Cnblogs Android Client
@@ -37,9 +37,9 @@ c,Don't like the UI,wanna mix your own idea;
 d,I'm a rework crazy guy,I hate the ugly code,I wanna the more fast performance.
 
 The homepage:
-http://android.walkingp.com/cnblogs/
+[http://android.walkingp.com](http://android.walkingp.com)
 The source:
-https://github.com/walkingp/AndroidCnblogs
+[https://github.com/walkingp/AndroidCnblogs](https://github.com/walkingp/AndroidCnblogs)
 
 You can also get more information in the discuss community(in Chinese):
-http://home.cnblogs.com/group/AndroidCnblogs/
+[http://home.cnblogs.com/group/AndroidCnblogs/](http://home.cnblogs.com/group/AndroidCnblogs/)
