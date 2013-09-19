@@ -1,6 +1,6 @@
 博客园Android客户端
 ==================
-欢迎加入博客园Android客户端的开发，我是作者[walkingp](http://walkingp.com)。这份代码是博客园Android客户端的全部源码，同时包含了部分设计图及数据库设计文档，目前博客园Android客户端已经发布了两个版本，由于个人精力有限，同时想借助园友的力量把这个应用做得更完善一些，特将全部源码资料开源。
+欢迎加入博客园Android客户端的开发。这份代码是博客园Android客户端的全部源码，同时包含了部分设计图及数据库设计文档，目前博客园Android客户端已经发布了两个版本，由于个人精力有限，同时想借助园友的力量把这个应用做得更完善一些，特将全部源码资料开源。
 
 #####请仔细阅读以下内容：
 
@@ -16,7 +16,7 @@ d、重构达人，看不惯蹩脚的代码，要让应用的性能大幅度提�
 
 
 #####应用主页：
-[http://android.walkingp.com](http://android.walkingp.com)
+[http://www.walkingp.com/cnblogs/](http://www.walkingp.com/cnblogs/)
 #####项目主页：
 [https://github.com/walkingp/AndroidCnblogs](https://github.com/walkingp/AndroidCnblogs)
 
@@ -26,7 +26,7 @@ d、重构达人，看不惯蹩脚的代码，要让应用的性能大幅度提�
 
 Cnblogs Android Client
 ======================
-Welcome to the cnblogs android client developer team,I am the author named [walkingp](http://walkingp.com),this code contains all the source,the design material and the database designment document.The cnblogs android client had realsed two versions,cause the personal idle time is too few,and also wanna get it better by many people.
+Welcome to the cnblogs android client developer team,this code contains all the source,the design material and the database designment document.The cnblogs android client had realsed two versions,cause the personal idle time is too few,and also wanna get it better by many people.
 
 #####Please read the following carefully:
 
@@ -41,7 +41,7 @@ c,Don't like the UI,wanna mix your own idea;
 d,I'm a rework crazy guy,I hate the ugly code,I wanna the more fast performance.
 
 #####The homepage:
-[http://android.walkingp.com](http://android.walkingp.com)
+[http://www.walkingp.com/cnblogs/](http://www.walkingp.com/cnblogs/)
 #####The source:
 [https://github.com/walkingp/AndroidCnblogs](https://github.com/walkingp/AndroidCnblogs)
 
